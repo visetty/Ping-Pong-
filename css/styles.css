@@ -6,3 +6,7 @@ body {
   text-align: center;
   background-color: #F9966B;
 }
+
+.col-md-4 {
+  background-color: green;
+}
