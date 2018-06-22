@@ -2,6 +2,10 @@ body {
   background: #999;
 }
 
+.container {
+  margin: 0px;
+}
+
 .jumbotron {
   text-align: center;
   background-color: #F9966B;
@@ -12,5 +16,16 @@ body {
 }
 
 h1 , h2, h3, h4 {
-  font-weight: bold;  
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+ol li {
+  font-family: sans-serif;
+  font-size: 15px;
 }
