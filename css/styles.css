@@ -4,6 +4,7 @@ body {
 
 .container {
   margin: 0px;
+  box-sizing: border-box;
 }
 
 .jumbotron {
