@@ -10,6 +10,11 @@ body {
   background-image: url("../images/ping.jpg");
 }
 
+.jumbotron h1 {
+  position: relative;
+  top: 40px;
+}
+
 h1 , h2, h3, h4 {
   font-weight: bold;
   color: white;
