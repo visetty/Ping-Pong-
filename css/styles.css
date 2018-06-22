@@ -1,5 +1,5 @@
 body {
-  background-color: #999;
+  background-color: #333;
 }
 
 .jumbotron {
@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background-color: #CD5C5C;
+
 }
 
 h1 , h2, h3, h4 {
@@ -29,5 +29,23 @@ p {
 ol li {
   font-family: sans-serif;
   font-size: 15px;
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+}
+#userInput {
+  color: white;
+}
+
+.yourresult {
   color: white;
 }
