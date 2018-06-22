@@ -1,32 +1,33 @@
 body {
-  background: #999;
-}
-
-.container {
-  margin: 0px;
-  box-sizing: border-box;
+  background-color: #999;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: #F9966B;
+  text-decoration: underline;
+  text-shadow: 2px 2px  8px #FF0000;
+  color: white;
+  background-image: url("../images/ping.jpg");
 }
 
-.col-md-4 {
-  background-color: green;
+.container {
+  background-color: #CD5C5C;
 }
 
 h1 , h2, h3, h4 {
   font-weight: bold;
+  color: white;
 }
 
 p {
   font-size: 18px;
   font-family: inherit;
   font-weight: 500;
+  color: white;
 }
 
 ol li {
   font-family: sans-serif;
   font-size: 15px;
+  color: white;
 }
