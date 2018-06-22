@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: #585858;
 }
 
 .jumbotron {
@@ -7,6 +7,7 @@ body {
   text-decoration: underline;
   text-shadow: 4px 4px 8px #FF0000;
   color: white;
+  font-weight: bolder;
   background-image: url("../images/ping.jpg");
 }
 
@@ -16,7 +17,7 @@ body {
 }
 
 h1 , h2, h3, h4 {
-  font-weight: bold;
+  font-weight: bolder;
   color: white;
 }
 
@@ -45,8 +46,10 @@ label {
 }
 #userInput {
   color: white;
+  font-weight: bold;
 }
 
 .yourresult {
   color: white;
+  font-weight: bold;
 }
