@@ -1,25 +1,10 @@
 //business logic
-
-var resultArray = [];
-
- function pingPong(count) {
-
- var resultArray = [];
-  for (var i = 1; i <= count; i = i + 1) {
-    if (i === NaN) {
-      alert("Enter a valid Number:");
-    } else if ((i % 3) === 0 && (i % 5) === 0) {
-      resultArray.push("Ping-pong!");
-    } else if (i % 3 === 0) {
-      resultArray.push("Ping!");
-    }else if (i % 5 === 0) {
-      resultArray.push("Pong!");
-    } else {
-      resultArray.push(i);
-    };
-
+var pingPong = function(userInput) {
+  var resultsArray = [];
+  for (i = 1; i <= userInput; i += 1) {
+    
   }
-  return resultArray;
+
 }
 
 //UserInteface logic
