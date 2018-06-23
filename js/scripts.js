@@ -22,11 +22,18 @@ var pingPong = function(userInput) {
 $(document).ready(function() {
   $(".form-inline").submit(function(event) {
     event.preventDefault();
+    //clears the existing result list
+    $(".yourresult").html("");
     var userinputOne = $("#userInput").val();
-    var displayArray = [];
-    displayArray = pingPong(userinputOne);
-    displayArray.forEach(function(num) {
-      $(".yourresult").append("<li>" + num + "</li>");
-    });
+    //validates the userInputOne 
+    if (isNaN(userinputOne) || userinputOne === "") {
+      alert("Enter valid input");
+    } else {
+      var displayArray = [];
+      displayArray = pingPong(userinputOne);
+      displayArray.forEach(function(num) {
+        $(".yourresult").append("<li>" + num + "</li>");
+      });
+    }
   });
 });
