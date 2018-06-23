@@ -1,6 +1,7 @@
 //business logic
 var pingPong = function(userInput) {
   var resultsArray = [];
+  //for loop , iteration till the userInput number , building the result set
   for (i = 1; i <= userInput; i += 1) {
     if (i % 15 === 0) {
       resultsArray.push("Ping-pong!");
@@ -12,7 +13,7 @@ var pingPong = function(userInput) {
       resultsArray.push(i);
     }
   }
-
+//returning the result array
   return resultsArray;
 
 }
@@ -25,9 +26,10 @@ $(document).ready(function() {
     //clears the existing result list
     $(".yourresult").html("");
     var userinputOne = $("#userInput").val();
-    //validates the userInputOne 
+    //validates the userInputOne
     if (isNaN(userinputOne) || userinputOne === "") {
       alert("Enter valid input");
+      //else will go through the pingPongfunction loop
     } else {
       var displayArray = [];
       displayArray = pingPong(userinputOne);
