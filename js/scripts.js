@@ -24,9 +24,10 @@ var resultArray = [];
 
 //UserInteface logic
 
-$(document).ready(function(){
-  $("#blanks-form").submit(function(event) {
+$(document).ready(function() {
+  $(".form-inline form").submit(function(event) {
     event.preventDefault();
+    //console.log(event);
     var userinputOne = $("#userInput").val();
     var displayArray = pingPong();
     resultArray.forEach(function(displayArray) {
