@@ -13,18 +13,20 @@ var pingPong = function(userInput) {
     }
   }
 
+  return resultsArray;
+
 }
 
-//UserInteface logic
+//User-Inteface logic
 
 $(document).ready(function() {
   $(".form-inline").submit(function(event) {
     event.preventDefault();
     var userinputOne = $("#userInput").val();
     var displayArray = [];
-    displayArray = pingPong();
-    displayArray.forEach(function(item) {
-      $("#yourresult").append("<li>" + item + "</li>");
+    displayArray = pingPong(userinputOne);
+    displayArray.forEach(function(num) {
+      $(".yourresult").append("<li>" + num + "</li>");
     });
   });
 });
